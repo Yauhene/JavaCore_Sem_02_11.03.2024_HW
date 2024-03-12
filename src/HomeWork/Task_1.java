@@ -26,11 +26,7 @@ public class Task_1 {
      * @return - true для четного, false для нечетного числа.
      */
     public static boolean evenOrNot(int number) {
-        if (number % 2 == 0) {
-            return true;
-        } else {
-            return false;
-        }
+        return number % 2 == 0;
     }
 
     /**

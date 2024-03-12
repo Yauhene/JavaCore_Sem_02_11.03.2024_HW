@@ -1,6 +1,5 @@
 package HomeWork;
 
-import java.sql.*;
 import java.util.*;
 
 /*
@@ -52,7 +51,7 @@ public class Task_3 {
                 }
             }
         }
-        if (alarm == true) {
+        if (alarm) {
             result = false;
             System.out.println();
             System.out.println("Найдена последовательность из трех и более нулей! Невелика печаль, но - печаль...");
