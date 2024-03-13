@@ -18,7 +18,7 @@ public class Task_3 {
         int[] arr_5 = {0, 0, 0};
 
         System.out.println("Задание 3");
-
+        System.out.println();
 
         printEmotions(arr_1);
         printEmotions(arr_2);

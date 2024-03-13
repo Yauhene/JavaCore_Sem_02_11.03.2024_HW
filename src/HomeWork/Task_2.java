@@ -15,7 +15,8 @@ public class Task_2 {
         int[] arr_1 = {2, 1, 2, 3, 4};
         int[] arr_2 = {2, 2, 0};
         int[] arr_3 = {1, 3, 5};
-
+        System.out.println("Задание 2");
+        System.out.println();
         System.out.println("Разница = " + getDifference(arr_1));
         System.out.println("Разница = " + getDifference(arr_2));
         System.out.println("Разница = " + getDifference(arr_3));
@@ -30,8 +31,6 @@ public class Task_2 {
         int minValue = arr[0];
         int maxValue = arr[0];
         int difference;
-
-        System.out.println("Задание 2");
 
         for (int i = 1; i < arr.length; i++) {
             if (minValue > arr[i]) {

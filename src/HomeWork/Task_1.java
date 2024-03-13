@@ -14,6 +14,7 @@ public class Task_1 {
         int[] arr_2 = {2, 2, 0};
         int[] arr_3 = {1, 3, 5};
         System.out.println("Задание 1");
+        System.out.println();
 
         printResult(arr_1);
         printResult(arr_2);
